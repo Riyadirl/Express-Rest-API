@@ -4,7 +4,7 @@ const express = require("express");
 const router = require("../Express-Rest-API/src/routes/route");
 const app = express();
 
-//security middleware import
+//security5 middleware import
 const rateLimit = require("express-mongo-sanitize");
 const helmet = require("helmet");
 const mongoSanitize = require("express-mongo-sanitize");
